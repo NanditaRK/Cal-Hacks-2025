@@ -1,6 +1,6 @@
 # MindBlocks
 
-# AI-Powered Schedule Planner
+# Smart Academic Workflow Assistant
 
 An interactive web app that helps students and professionals stay organized by:  
 - Uploading or pasting a syllabus (PDF or text)  
