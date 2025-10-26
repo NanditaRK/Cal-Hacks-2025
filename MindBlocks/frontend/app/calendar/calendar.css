@@ -1,0 +1,73 @@
+/* Background and text */
+.rbc-calendar {
+  background-color: white; /* black */
+  color: black;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+/* Toolbar (month/week/day) */
+.rbc-toolbar {
+  background-color: #111;
+  color: white;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rbc-toolbar button {
+  background: #3b82f6; /* Tailwind blue-500 */
+  color: black;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  margin: 0 0.25rem;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+
+.rbc-toolbar button:hover {
+  background: #60a5fa; /* lighter blue */
+}
+
+.rbc-toolbar button.rbc-active {
+  background: #f472b6; /* pink-400 */
+  color: black;
+}
+
+/* Month/Week grid */
+.rbc-month-view,
+.rbc-time-view,
+.rbc-agenda-view {
+  background-color: #0a0a0a;
+  border: 1px solid #333;
+}
+
+.rbc-header {
+  background: #111;
+  color: #f472b6; /* pink-400 */
+  padding: 0.5rem;
+  font-weight: bold;
+  border-bottom: 1px solid #333;
+}
+
+/* Today highlight */
+.rbc-today {
+  background: rgba(59, 130, 246, 0.2); /* blue-500 soft */
+}
+
+/* Events */
+.rbc-event {
+  background: #3b82f6 !important; /* blue-500 */
+  color: white !important;
+  border-radius: 0.5rem !important;
+  padding: 0.25rem 0.5rem !important;
+  font-weight: 600 !important;
+}
+
+.rbc-event:hover {
+  background: #f472b6 !important; /* pink-400 on hover */
+  color: white !important;
+}
