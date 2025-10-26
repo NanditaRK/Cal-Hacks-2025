@@ -43,7 +43,7 @@ An interactive web app that helps students and professionals stay organized by:
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/NanditaRK/MindBlocks.git
+git clone https://github.com/NanditaRK/Cal-Hacks-2025.git
 ```
 
 
